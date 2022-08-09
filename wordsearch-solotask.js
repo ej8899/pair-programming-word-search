@@ -45,4 +45,10 @@ const transpose = function (matrix) {
 };
 
 
+
+//
+// HOW TO DEAL w DIAGONALS - think back to prep w queens threat
+// can we find matching initial letter, then use queens threat concept to check ea diagonal for next matching letter?
+//
+
 module.exports = wordSearch
